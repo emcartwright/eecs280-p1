@@ -9,7 +9,8 @@ vector<vector<double> > summarize(vector<double> v) {
 }
 
 int count(vector<double> v) {
-  assert(false);
+  assert(!v.empty());
+  return v.size();
 }
 
 double sum(vector<double> v) {
