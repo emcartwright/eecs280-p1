@@ -62,6 +62,7 @@ int main() {
   myfile.close();
   vector<int>  data_store(SIZE,-1);
   cout<<j;
+  myfile.open(fname);
   if (myfile.is_open()){
     //get the column labels
     int col_index = 0;
